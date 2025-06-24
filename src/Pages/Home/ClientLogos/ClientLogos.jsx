@@ -22,7 +22,7 @@ const ClientLogos = () => {
 
   return (
     <section className="mb-20 ">
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 divider">
         <h2 className="text-2xl md:text-3xl font-bold">
           We've helped thousands of sales teams
         </h2>
@@ -30,12 +30,8 @@ const ClientLogos = () => {
 
       <Marquee gradient={false} speed={80} pauseOnHover={true} loop={0}>
         {logos.map((logo) => (
-          <div key={logo.id} className="mx-6  transition-all duration-300">
-            <img
-              src={logo.src}
-              alt={logo.alt}
-              className="h-10 object-contain"
-            />
+          <div key={logo.id} className="mx-16  transition-all duration-300">
+            <img src={logo.src} alt={logo.alt} className="h-6 object-contain" />
           </div>
         ))}
       </Marquee>

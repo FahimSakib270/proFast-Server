@@ -4,6 +4,7 @@ import OurServices from "../Services/OurServices";
 import ClientLogos from "../ClientLogos/ClientLogos";
 import Features from "../Features/Features";
 import BeMerchant from "../Merchant/BeMerchant";
+import FQA from "../FQA/FQA";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ClientLogos></ClientLogos>
       <Features></Features>
       <BeMerchant></BeMerchant>
+      <FQA></FQA>
     </div>
   );
 };

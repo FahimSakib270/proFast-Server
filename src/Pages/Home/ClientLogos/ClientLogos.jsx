@@ -21,7 +21,7 @@ const ClientLogos = () => {
   ];
 
   return (
-    <section className="mb-20 ">
+    <section className="mb-10 ">
       <div className="text-center mb-8 divider">
         <h2 className="text-2xl md:text-3xl font-bold">
           We've helped thousands of sales teams

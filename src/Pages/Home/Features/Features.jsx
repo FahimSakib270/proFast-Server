@@ -30,6 +30,11 @@ const Features = () => {
 
   return (
     <section className=" py-5">
+      <div>
+        <h2 className="text-center font-extrabold text-3xl my-4 ">
+          Why Choose Us
+        </h2>
+      </div>
       <div className="w-full border-t border-dashed border-gray-300 my-6"></div>
 
       {/* Feature Cards */}
@@ -39,7 +44,7 @@ const Features = () => {
           className="bg-white rounded-lg shadow-md p-6 mb-8 last:mb-0"
         >
           <div className="flex items-start gap-8 rounded-3xl">
-            <div className="w-40 h-40 bg-gray-100 rounded-lg flex justify-center items-center">
+            <div className="w-40 h-40  rounded-lg flex justify-center items-center">
               <img
                 src={feature.icon}
                 alt={feature.title}
@@ -57,8 +62,6 @@ const Features = () => {
               </p>
             </div>
           </div>
-
-          <div className="w-full border-l border-dashed border-gray-300 absolute top-0 bottom-0 left-0 ml-6"></div>
         </div>
       ))}
 

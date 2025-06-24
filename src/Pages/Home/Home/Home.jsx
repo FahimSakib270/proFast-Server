@@ -6,6 +6,7 @@ import Features from "../Features/Features";
 import BeMerchant from "../Merchant/BeMerchant";
 import FQA from "../FQA/FQA";
 import HowItWorks from "../HowItWorks/HowItWorks";
+import ReviewsSection from "../Reviews/Reviews";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ClientLogos></ClientLogos>
       <Features></Features>
       <BeMerchant></BeMerchant>
+      <ReviewsSection></ReviewsSection>
       <FQA></FQA>
     </div>
   );

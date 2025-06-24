@@ -50,17 +50,17 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
+    <section className="max-w-7xl bg-[#03373D] rounded-3xl mx-auto px-6 py-16 my-20">
       <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold mb-4 text-black">Our Services</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <h2 className="text-4xl font-bold mb-4 text-white">Our Services</h2>
+        <p className="text-gray-300 max-w-2xl mx-auto">
           Enjoy fast, reliable parcel delivery with real-time tracking and zero
           hassle. From personal packages to business shipments — we deliver on
           time, every time.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
         ))}

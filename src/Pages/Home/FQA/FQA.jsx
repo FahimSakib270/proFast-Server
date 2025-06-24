@@ -4,7 +4,6 @@ const FQA = () => {
   return (
     <div className="py-12 bg-base-100">
       <div className="max-w-5xl mx-auto px-4 space-y-8">
-        {/* Section Title */}
         <div className="text-center space-y-3 mb-10">
           <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -13,9 +12,7 @@ const FQA = () => {
           </p>
         </div>
 
-        {/* Accordion Items */}
         <div className="space-y-4">
-          {/* Q1 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" defaultChecked />
             <div className="collapse-title text-lg font-semibold">
@@ -29,7 +26,6 @@ const FQA = () => {
             </div>
           </div>
 
-          {/* Q2 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-lg font-semibold">
@@ -43,7 +39,6 @@ const FQA = () => {
             </div>
           </div>
 
-          {/* Q3 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-lg font-semibold">
@@ -57,7 +52,6 @@ const FQA = () => {
             </div>
           </div>
 
-          {/* Q4 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-lg font-semibold">
@@ -71,7 +65,6 @@ const FQA = () => {
             </div>
           </div>
 
-          {/* Q5 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-lg font-semibold">
@@ -85,7 +78,6 @@ const FQA = () => {
             </div>
           </div>
 
-          {/* Q6 */}
           <div className="collapse collapse-arrow bg-base-100 rounded-box border border-base-300">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-lg font-semibold">
